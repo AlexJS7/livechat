@@ -1,0 +1,22 @@
+{
+  "mongoose": {
+    "options": {
+      "server": {
+        "auto_reconnect": true,
+        "reconnectTries": 1000,
+        "socketOptions": {
+          "keepAlive": 1,
+          "connectTimeoutMS": 30000
+        }
+      },
+      "auth": {
+        "authdb": "admin"
+      }
+    }
+  },
+  "log": {
+    "logLevel": "verbose",
+    "logToFile": false,
+    "colorize": true
+  }
+}

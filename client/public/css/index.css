@@ -1,0 +1,30 @@
+body, html, h1, h2, h3, h4, h5, h6, ul, ol, li, p, span, a {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  background: none;
+  color: black;
+  font-family: arial;
+  position: relative;
+}
+
+@font-face {
+  font-family: opensansSemiBold;
+  src: url("../fonts/opensansSemiBold.ttf");
+}
+
+@font-face {
+  font-family: opensans;
+  src: url("../fonts/opensans.ttf");
+}
+
+@font-face {
+  font-family: latoBold;
+  src: url("../fonts/Lato-Bold.ttf");
+}
+
+.caret {
+  color: white;
+}
